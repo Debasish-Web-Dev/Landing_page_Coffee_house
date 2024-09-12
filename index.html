@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>landing page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <h2>logo</h2>
+            <div class="nav_part1">
+                <h4>Home</h4>
+                <h4>About</h4>
+                <h4>info</h4>
+                <h4>contact us</h4>
+                <button class="sign">Sign In</button>
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left_container">
+                <h1>Lorem ipsum <span class="hello">hello</span> dolor sit.</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate magni explicabo sunt quo quod
+                    maxime, optio consectetur atque id ratione earum eius, ipsum et debitis perspiciatis. Ducimus nulla
+                    beatae ea?</p>
+                <button class="Download">Color Change</button>
+            </div>
+            <div class="right_container">
+                <img src="//png.pngtree.com/png-clipart/20230917/original/pngtree-cute-flying-cup-of-coffee-with-splash-and-beans-png-image_12278321.png"
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        let Download = document.querySelector(".Download");
+        let hello = document.querySelector(".hello");
+        Download.addEventListener("click", ()=>{
+            hello.style.color = "gray";
+            alert("the java script function will be run");
+        })
+    </script>
+</body>
+
+</html>
